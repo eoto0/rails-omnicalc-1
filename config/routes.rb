@@ -20,5 +20,7 @@ get("/payment/new", { :controller => "calc", :action => "payment"})
 
 get("/payment/results", { :controller => "calc", :action => "payment_results"})
 
+get("/", { :controller => "calc", :action => "homepage"})
+
 
 end
